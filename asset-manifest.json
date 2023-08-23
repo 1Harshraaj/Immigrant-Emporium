@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Immigrant-Emporium/static/css/main.42b1be4b.css",
-    "main.js": "/Immigrant-Emporium/static/js/main.ca3f145d.js",
+    "main.js": "/Immigrant-Emporium/static/js/main.a5a2d4dd.js",
     "static/js/787.e5f42eff.chunk.js": "/Immigrant-Emporium/static/js/787.e5f42eff.chunk.js",
     "static/media/main.svg": "/Immigrant-Emporium/static/media/main.854a9502c59a07b3ca5eef797d96d6a3.svg",
     "static/media/mandir4.png": "/Immigrant-Emporium/static/media/mandir4.9bd7bb6b4360dde543a3.png",
@@ -31,11 +31,11 @@
     "static/media/side_seen5.png": "/Immigrant-Emporium/static/media/side_seen5.4826c2034ddbb1b8a4e3.png",
     "index.html": "/Immigrant-Emporium/index.html",
     "main.42b1be4b.css.map": "/Immigrant-Emporium/static/css/main.42b1be4b.css.map",
-    "main.ca3f145d.js.map": "/Immigrant-Emporium/static/js/main.ca3f145d.js.map",
+    "main.a5a2d4dd.js.map": "/Immigrant-Emporium/static/js/main.a5a2d4dd.js.map",
     "787.e5f42eff.chunk.js.map": "/Immigrant-Emporium/static/js/787.e5f42eff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42b1be4b.css",
-    "static/js/main.ca3f145d.js"
+    "static/js/main.a5a2d4dd.js"
   ]
 }
