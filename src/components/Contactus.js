@@ -70,7 +70,7 @@ const Contactus = () => {
                                 Just Pick the phone to cantact our member. For any query releated issue
                             </div>
                             <div style={{
-                                fontSize: "32px",
+                                fontSize: "24px",
                                 fontWeight: 700,
                                 lineHeight: "54px",
                                 letterSpacing: "0em",
@@ -111,7 +111,7 @@ const Contactus = () => {
                                 Feel free to directly chat with us in using link below for issue or query.
                             </div>
                             <div style={{
-                                fontSize: "32xpx",
+                                fontSize: "24px",
                                 fontWeight: 700,
                                 lineHeight: "54px",
                                 letterSpacing: "0em",
