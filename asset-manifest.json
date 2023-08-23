@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Immigrant-Emporium/static/css/main.42b1be4b.css",
-    "main.js": "/Immigrant-Emporium/static/js/main.5050ede3.js",
+    "main.js": "/Immigrant-Emporium/static/js/main.dcaa8804.js",
     "static/js/787.e5f42eff.chunk.js": "/Immigrant-Emporium/static/js/787.e5f42eff.chunk.js",
     "static/media/main.svg": "/Immigrant-Emporium/static/media/main.854a9502c59a07b3ca5eef797d96d6a3.svg",
     "static/media/mandir4.png": "/Immigrant-Emporium/static/media/mandir4.9bd7bb6b4360dde543a3.png",
@@ -40,11 +40,11 @@
     "static/media/Scotiabank.png": "/Immigrant-Emporium/static/media/Scotiabank.05dda2981f91f87088a8.png",
     "index.html": "/Immigrant-Emporium/index.html",
     "main.42b1be4b.css.map": "/Immigrant-Emporium/static/css/main.42b1be4b.css.map",
-    "main.5050ede3.js.map": "/Immigrant-Emporium/static/js/main.5050ede3.js.map",
+    "main.dcaa8804.js.map": "/Immigrant-Emporium/static/js/main.dcaa8804.js.map",
     "787.e5f42eff.chunk.js.map": "/Immigrant-Emporium/static/js/787.e5f42eff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42b1be4b.css",
-    "static/js/main.5050ede3.js"
+    "static/js/main.dcaa8804.js"
   ]
 }
