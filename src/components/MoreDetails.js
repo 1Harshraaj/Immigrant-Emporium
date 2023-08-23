@@ -1460,7 +1460,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -1556,7 +1556,7 @@ const MoreDetails = () => {
           </div>
 
           <div class="container text-center" style={{ paddingBottom: 10 }}>
-            <div class="row">
+            {/* <div class="row">
               <div class="col">
                 <img
                   style={{
@@ -1617,7 +1617,7 @@ const MoreDetails = () => {
                   src={side_seen5}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </>
       }
@@ -1692,7 +1692,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -1780,7 +1780,7 @@ const MoreDetails = () => {
             "Montanas BBQ, nestled in the heart of Thunder Bay, is your ultimate destination for mouthwatering barbecue delights. Savor the irresistible smoky flavors as you indulge in a diverse menu featuring succulent ribs, tender pulled pork, and savory brisket, all expertly crafted and grilled to perfection. Our warm and inviting atmosphere, paired with friendly service, ensures a memorable dining experience for every barbecue enthusiast. Come join us at Montanas BBQ and embark on a flavorful journey that will leave your taste buds craving for more."
 
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -1843,7 +1843,7 @@ const MoreDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Bhuddha */}
@@ -1918,7 +1918,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -2004,7 +2004,7 @@ const MoreDetails = () => {
             paddingLeft: "5%"
           }}>Krushi`s Indian Bistro Thunder Bay specializes in authentic Indian cuisines. Come over and knock yourself out on our mouth-watering varieties of cuisines and appetizers. Whether it is the lingering taste of our authentic curries or the finest of the tandooris or the world-famous Hyderabadi Dum Biryani.
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -2067,7 +2067,7 @@ const MoreDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Chruch */}
@@ -2142,7 +2142,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -2229,7 +2229,7 @@ const MoreDetails = () => {
           }}>
             When you step into Masala Grille, you are engulfed by a wave of mouth-watering aroma, arising from the mixture of spices. The blend of any spices is referred to as a masala. At Masala Grille, we have blended the spices, together with the atmosphere, authentic cuisine and service to offer you a unique dining experience right here in Thunder Bay.Masala Grille pleased to offer you a diverse variety of Indian and Thai cuisine. Whether it be dine-in, take-out or delivery your favourite dishes await you.
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -2292,7 +2292,7 @@ const MoreDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Sikh  */}
@@ -3366,7 +3366,7 @@ const MoreDetails = () => {
             lineHeight: "96px",
             letterSpacing: "0em",
 
-          }}>JAGANATH MANDIR</div>
+          }}>CIBC</div>
           <div style={{ display: "flex" }}>
 
             <div>
@@ -3375,18 +3375,22 @@ const MoreDetails = () => {
                 fontWeight: "600",
                 color: "#6c78c3",
                 paddingLeft: "5%"
-              }}>Best hindu bank in your country</div>
+              }}>Locations</div>
               <div style={{
                 lineHeight: "27px",
                 fontWeight: "500",
                 display: "inline-block",
                 paddingLeft: "5%"
               }}>
-                A bank is a religious building that's meant for worshipping or
-                praying. Hindu banks are typically devoted to one specific god. While
-                banks tend to be associated with non-Christian religions like Islam,
-                Judaism, and Buddhism, some sects of Orthodox Christianity worship in
-                banks as well.
+                <div>1st</div>
+                2 South Cumberland Street
+Thunder Bay, ON P7B2T2
+                <div>2nd</div>
+                1038 Memorial Avenue
+Thunder Bay, ON P7B4A3
+                <div>3rd</div>
+                832 Red River Road
+Thunder Bay, ON P7B1K2
               </div>
             </div>
             <div
@@ -3406,7 +3410,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -3491,9 +3495,17 @@ const MoreDetails = () => {
             display: "inline-block",
             paddingLeft: "5%"
           }}>
-            A bank is a religious building that's meant for worshipping or praying. Hindu banks are typically devoted to one specific god. While banks tend to be associated with non-Christian religions like Islam, Judaism, and Buddhism, some sects of Orthodox Christianity worship in banks as well.
+            Visit a Branch: Locate a nearby CIBC branch and book an appointment with a financial advisor. Bring your essential documents, including your passport, PR card, and landing papers.
+Consultation: Meet with the advisor to discuss your financial goals and the GIC options available. They will guide you through the process and help you choose the best GIC term and amount.
+<div>Documentation: Provide the necessary documents, such as your proof of identification, immigration status, and address verification.</div>
+<div>Funding: Deposit the required funds for your chosen GIC term. This amount will be held in the GIC account, earning interest while you fulfill the terms of your settlement in Canada.</div>
+<div>Confirmation: Receive confirmation of your GIC Account opening and the terms and conditions. Keep this documentation for your records.</div>
+<div>Welcome Package: Get your welcome package, which may include account details, online banking information, and other essential materials.</div>
+<div>Access and Manage: Monitor your GIC Account's progress through CIBC's online banking platform, and utilize its features to manage your finances effectively.
+Embark on your financial journey in Canada with CIBC Bank's GIC Account – a secure step towards your prosperous future."</div>
+<div>Please note that procedures and requirements may vary, and it's recommended to directly contact CIBC Bank or visit their official website for the most up-to-date and accurate information on opening a GIC Account as a newcomer to Canada.</div>
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -3556,7 +3568,7 @@ const MoreDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {params?.id === "bank" && params?.details === "derasar" &&
@@ -3594,7 +3606,7 @@ const MoreDetails = () => {
             lineHeight: "96px",
             letterSpacing: "0em",
 
-          }}>DERASAR</div>
+          }}>Scotia Bank</div>
           <div style={{ display: "flex" }}>
 
             <div>
@@ -3603,18 +3615,21 @@ const MoreDetails = () => {
                 fontWeight: "600",
                 color: "#6c78c3",
                 paddingLeft: "5%"
-              }}>Best hindu bank in your country</div>
+              }}>Locations</div>
               <div style={{
                 lineHeight: "27px",
                 fontWeight: "500",
                 display: "inline-block",
                 paddingLeft: "5%"
               }}>
-                A bank is a religious building that's meant for worshipping or
-                praying. Hindu banks are typically devoted to one specific god. While
-                banks tend to be associated with non-Christian religions like Islam,
-                Judaism, and Buddhism, some sects of Orthodox Christianity worship in
-                banks as well.
+                <div>1st</div>
+                1195 Arthur St W, Thunder Bay, ON P7E 6E2
+                <div>2nd</div>
+                225 Red River Rd, Thunder Bay, ON P7B 1A7
+                <div>3rd</div>
+                745 Hewitson St, Thunder Bay, ON P7B 6B5
+                <div>4th</div>
+                1195 Arthur St W, Thunder Bay, ON P7E 6E2
               </div>
             </div>
             <div
@@ -3634,7 +3649,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -3719,9 +3734,17 @@ const MoreDetails = () => {
             display: "inline-block",
             paddingLeft: "5%"
           }}>
-            A bank is a religious building that's meant for worshipping or praying. Hindu banks are typically devoted to one specific god. While banks tend to be associated with non-Christian religions like Islam, Judaism, and Buddhism, some sects of Orthodox Christianity worship in banks as well.
+            Visit a Branch: Locate a nearby CIBC branch and book an appointment with a financial advisor. Bring your essential documents, including your passport, PR card, and landing papers.
+Consultation: Meet with the advisor to discuss your financial goals and the GIC options available. They will guide you through the process and help you choose the best GIC term and amount.
+<div>Documentation: Provide the necessary documents, such as your proof of identification, immigration status, and address verification.</div>
+<div>Funding: Deposit the required funds for your chosen GIC term. This amount will be held in the GIC account, earning interest while you fulfill the terms of your settlement in Canada.</div>
+<div>Confirmation: Receive confirmation of your GIC Account opening and the terms and conditions. Keep this documentation for your records.</div>
+<div>Welcome Package: Get your welcome package, which may include account details, online banking information, and other essential materials.</div>
+<div>Access and Manage: Monitor your GIC Account's progress through CIBC's online banking platform, and utilize its features to manage your finances effectively.</div>
+Embark on your financial journey in Canada with CIBC Bank's GIC Account – a secure step towards your prosperous future."
+<div>Please note that procedures and requirements may vary, and it's recommended to directly contact CIBC Bank or visit their official website for the most up-to-date and accurate information on opening a GIC Account as a newcomer to Canada.</div>
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -3784,7 +3807,7 @@ const MoreDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Bhuddha */}
@@ -4783,7 +4806,7 @@ const MoreDetails = () => {
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -4886,7 +4909,7 @@ Customer Service: Our friendly associates are here to assist you and provide exc
             <div>Please note that specific details and offerings may vary by location, so it's recommended to visit the official Walmart website or contact the individual stores for the most up-to-date information.</div>
           </div>
           <div class="container text-center" style={{ paddingBottom: 10 }}>
-            <div class="row">
+            {/* <div class="row">
               <div class="col">
                 <img
                   style={{
@@ -4947,7 +4970,7 @@ Customer Service: Our friendly associates are here to assist you and provide exc
                   src={side_seen5}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </>
       }
@@ -5027,7 +5050,7 @@ Customer Service: Our friendly associates are here to assist you and provide exc
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -5131,7 +5154,7 @@ Customer-Focused: Our friendly staff is always ready to assist you in finding th
 Please note that product availability may vary by location, so it's recommended to visit the official Dollarama website or contact the individual stores for the most up-to-date information.
 </div>
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -5194,7 +5217,7 @@ Please note that product availability may vary by location, so it's recommended 
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Bhuddha */}
@@ -5270,7 +5293,7 @@ Please note that product availability may vary by location, so it's recommended 
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -5372,7 +5395,7 @@ Convenience & Accessibility: With multiple locations across Thunder Bay, you're 
             <div>Elevate your productivity, education, and creativity with Thunder Bay's Staples Stores. Step into a world of endless possibilities, where everything you need is just a visit away!"
 Please note that product availability and services may vary by location, so it's recommended to visit the official Staples website or contact the individual stores for the most up-to-date information.</div>
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -5435,7 +5458,7 @@ Please note that product availability and services may vary by location, so it's
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Chruch */}
@@ -5514,7 +5537,7 @@ Please note that product availability and services may vary by location, so it's
                   objectFit: "cover",
                 }}
                 alt=""
-                src={imagebudha}
+                // src={imagebudha}
               />
             </div>
           </div>
@@ -5601,7 +5624,7 @@ Please note that product availability and services may vary by location, so it's
           }}>
             A shopping is a religious building that's meant for worshipping or praying. Hindu shoppings are typically devoted to one specific god. While shoppings tend to be associated with non-Christian religions like Islam, Judaism, and Buddhism, some sects of Orthodox Christianity worship in shoppings as well.
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -5664,7 +5687,7 @@ Please note that product availability and services may vary by location, so it's
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Sikh  */}
@@ -5830,7 +5853,7 @@ Please note that product availability and services may vary by location, so it's
           }}>
             A shopping is a religious building that's meant for worshipping or praying. Hindu shoppings are typically devoted to one specific god. While shoppings tend to be associated with non-Christian religions like Islam, Judaism, and Buddhism, some sects of Orthodox Christianity worship in shoppings as well.
           </div>
-          <div class="container text-center" style={{ paddingBottom: 10 }}>
+          {/* <div class="container text-center" style={{ paddingBottom: 10 }}>
             <div class="row">
               <div class="col">
                 <img
@@ -5893,7 +5916,7 @@ Please note that product availability and services may vary by location, so it's
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       }
       {/* Jain */}

@@ -9,7 +9,7 @@ const Contactus = () => {
         <>
             <div style={{ height: "30vh", width: "100%", background: "#5D93BA", alignItems: "center" }}>
                 <Row>
-                    <Col xs={24} sm={24} md={8} lg={8} style={{
+                    {/* <Col xs={24} sm={24} md={8} lg={8} style={{
                         fontSize: "35px",
                         fontWeight: 400,
                         lineHeight: "42px",
@@ -23,23 +23,23 @@ const Contactus = () => {
 
                         Get in touch
 
-                    </Col>
-                    <Col xs={24} sm={24} md={8} lg={10}
+                    </Col> */}
+                    <Col xs={24} sm={24} md={13} lg={40}
                         style={{
                             fontSize: "35px",
                             fontWeight: 700,
-                            lineHeight: "42px",
-                            letterSpacing: "0em",
-                            textAlign: "center",
+                            // lineHeight: "42px",
+                            // letterSpacing: "0em",
+                            textAlign: "right",
                             paddingTop: "3%",
-                            // placeSelf: "center"
+                            placeSelf: "center"
                         }}>
                         Contact Us
 
                     </Col>
-                    <Col xs={24} sm={24} md={8} lg={6} style={{ textAlign: "right" }} >
+                    {/* <Col xs={24} sm={24} md={8} lg={6} style={{ textAlign: "right" }} >
                         <img src={Contactusimg} alt='contact-us' style={{ height: "30vh", width: "100%" }} />
-                    </Col>
+                    </Col> */}
                 </Row>
                 <Row>
                     <Col xs={24} sm={24} md={24} lg={10} style={{

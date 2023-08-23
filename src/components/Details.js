@@ -11,7 +11,18 @@ import MAP1P1 from "../icon/MAINLINE-NS.png"
 import MAP2 from "../icon/CROSSTOWN.png"
 import MAP3 from "../icon/3M MEMORIAL.png"
 import MAP4 from "../icon/EDWARD.png"
+import RoyalPan from "../icon/RoyalPan.png"
+import Montanas from "../icon/Montanas.png"
+import IndianBistro from "../icon/IndianBistro.png"
+import MasalGrill from "../icon/MasalGrill.png"
+import Wallmart from "../icon/Wallmart.png"
+import Dolarama from "../icon/Dolarama.png"
+import Staples from "../icon/Staples.png"
+import CIBC from "../icon/CIBC.png"
+import Scotiabank from "../icon/Scotiabank.png"
+
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+
 import { useNavigate, useParams } from 'react-router-dom';
 
 const Main2 = () => {
@@ -158,7 +169,7 @@ const Main2 = () => {
                             }}
                                 onClick={() => navigate(`/${params?.id}/Royal Pan`)}
                             >
-                                <img src={Derasar} alt={"Derasar"} width="70%" />
+                                <img src={RoyalPan} alt={"Derasar"} width="70%" />
 
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Royal Pan
@@ -173,7 +184,7 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/montanas`)}>
-                                <img src={JAGANATH} alt={"Derasar"} width="70%" />
+                                <img src={Montanas} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Montanas
                                 </div>
@@ -187,7 +198,7 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/indian bistro`)}>
-                                <img src={Bhuddha} alt={"Derasar"} width="70%" />
+                                <img src={IndianBistro} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Indian Bistro
                                 </div>
@@ -203,7 +214,7 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/masal grill`)}>
-                                <img src={Chruch} alt={"Derasar"} width="70%" />
+                                <img src={MasalGrill} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Masal Grill
                                 </div>
@@ -258,7 +269,7 @@ const Main2 = () => {
                                 <img src={MAP1P1} alt={"Derasar"} width="70%" />
 
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Transporter
+                                    Line 1 Bus
                                 </div>
                             </div>
                         </Col>
@@ -272,7 +283,7 @@ const Main2 = () => {
                             }} onClick={() => navigate(`/${params?.id}/CROSSTOWN`)}>
                                 <img src={MAP2} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Transporter
+                                    Crosstwon 2 Bus
                                 </div>
                             </div>
                         </Col>
@@ -286,7 +297,7 @@ const Main2 = () => {
                             }} onClick={() => navigate(`/${params?.id}/3M MEMORIAL`)}>
                                 <img src={MAP3} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Bhuddha Temple
+                                    Bus Number M3
                                 </div>
                             </div>
                         </Col>
@@ -302,7 +313,7 @@ const Main2 = () => {
                             }} onClick={() => navigate(`/${params?.id}/EDWARD`)}>
                                 <img src={MAP4} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Food
+                                    Tbay Transit
                                 </div>
                             </div>
                         </Col>
@@ -352,10 +363,10 @@ const Main2 = () => {
                                 onClick={() => navigate(`/${params?.id}/baps`)}
                             >
 
-                                <img src={Derasar} alt={"Derasar"} width="70%" />
+                                <img src={CIBC} alt={"Derasar"} width="70%" />
 
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Transporter
+                                    CIBC
                                 </div>
                             </div>
                         </Col>
@@ -367,13 +378,13 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/derasar`)}>
-                                <img src={JAGANATH} alt={"Derasar"} width="70%" />
+                                <img src={Scotiabank} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
-                                    Transporter
+                                Scotiabank
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={24} sm={24} md={8} lg={8} >
+                        {/* <Col xs={24} sm={24} md={8} lg={8} >
                             <div style={{
                                 display: "flex",
                                 flexDirection: "column",
@@ -386,9 +397,9 @@ const Main2 = () => {
                                     Bhuddha Temple
                                 </div>
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
-                    <Row style={{ Padding: "2% 20%", display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center" }}>
+                    {/* <Row style={{ Padding: "2% 20%", display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center" }}>
                         <Col xs={24} sm={24} md={8} lg={8} >
                             <div style={{
                                 display: "flex",
@@ -431,7 +442,7 @@ const Main2 = () => {
                                 </div>
                             </div>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </div>
             }
 
@@ -449,7 +460,7 @@ const Main2 = () => {
                                 onClick={() => navigate(`/${params?.id}/wallmart`)}
                             >
 
-                                <img src={Derasar} alt={"Derasar"} width="70%" />
+                                <img src={Wallmart} alt={"Derasar"} width="70%" />
 
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Wallmart
@@ -464,7 +475,7 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/dolarama`)}>
-                                <img src={JAGANATH} alt={"Derasar"} width="70%" />
+                                <img src={Dolarama} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Dolarama
                                 </div>
@@ -478,7 +489,7 @@ const Main2 = () => {
                                 alignContent: "center",
                                 alignItems: "center",
                             }} onClick={() => navigate(`/${params?.id}/Staples`)}>
-                                <img src={Bhuddha} alt={"Derasar"} width="70%" />
+                                <img src={Staples} alt={"Derasar"} width="70%" />
                                 <div style={{ borderTop: "1px solid #6C78C3", borderBottom: "1px solid #6C78C3", padding: 10, fontSize: "24px", fontWeight: 400, margin: 20, width: "69%", textAlign: "center" }}>
                                 Staples
                                 </div>
